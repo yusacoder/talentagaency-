@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Başvurusu — Eternal Production</title>
+<meta name="description" content="Eternal Production partner programına 5 adımda başvur: temel bilgiler, sosyal medya, içerik bilgileri, reklam onayı ve sözleşmeler.">
+<link rel="canonical" href="https://eternalproduction.net/basvuru.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Partner Başvurusu — Eternal Production">
+<meta property="og:description" content="5 adımda partner başvurunu tamamla.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="assets/site.webmanifest">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/extra.css">
+</head>
+<body data-page="basvuru" data-root="">
+
+<div id="navbar-root"></div>
+
+<main id="icerik">
+<section class="stepper-wrap">
+  <div class="wrap">
+
+    <div class="text-center" style="margin-bottom:36px;">
+      <p class="eyebrow">Başvuru</p>
+      <h1 class="section-title">Partner başvurunu tamamla</h1>
+      <p class="section-sub" style="margin:0 auto;">5 kısa adım, yaklaşık 3 dakika sürer.</p>
+    </div>
+
+    <div class="stepper-track">
+      <div class="step-dot is-active"><div class="step-circle">1</div><div class="step-label">Temel Bilgiler</div></div>
+      <div class="step-dot"><div class="step-circle">2</div><div class="step-label">Sosyal Medya</div></div>
+      <div class="step-dot"><div class="step-circle">3</div><div class="step-label">İçerik</div></div>
+      <div class="step-dot"><div class="step-circle">4</div><div class="step-label">Reklam Onayı</div></div>
+      <div class="step-dot"><div class="step-circle">5</div><div class="step-label">Sözleşmeler</div></div>
+    </div>
+
+    <form id="applicationForm" class="form-card glass-card" action="https://formsubmit.co/destek@eternalproduction.net" method="POST">
+      <!-- FormSubmit ayarları -->
+      <input type="hidden" name="_subject" value="Yeni Partner Başvurusu — Eternal Production">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="tesekkurler.html">
+      <!-- Honeypot: botlar bu alanı doldurur, insanlar görmez -->
+      <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off">
+
+      <!-- Adım 1: Temel Bilgiler -->
+      <div class="form-step is-active">
+        <h3>Temel Bilgiler</h3>
+        <p class="step-desc">Sana ve iletişim bilgilerine dair birkaç soru.</p>
+
+        <div class="field-group">
+          <label for="fullname">Ad Soyad <span class="req">*</span></label>
+          <input type="text" id="fullname" name="fullname" required autocomplete="name">
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label for="nickname">Takma Ad <span class="req">*</span></label>
+            <input type="text" id="nickname" name="nickname" required>
+          </div>
+          <div class="field-group">
+            <label for="discord">Discord Kullanıcı Adı <span class="req">*</span></label>
+            <input type="text" id="discord" name="discord" placeholder="kullaniciadi" required>
+          </div>
+        </div>
+        <div class="field-group">
+          <label for="email">E-posta <span class="req">*</span></label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="form-nav">
+          <span></span>
+          <button type="button" class="btn btn-primary" data-next>İleri</button>
+        </div>
+      </div>
+
+      <!-- Adım 2: Sosyal Medya -->
+      <div class="form-step">
+        <h3>Sosyal Medya</h3>
+        <p class="step-desc">Instagram hesabın ve kitle büyüklüğün hakkında bilgi ver.</p>
+
+        <div class="field-group">
+          <label for="instagram">Instagram Kullanıcı Adı <span class="req">*</span></label>
+          <input type="text" id="instagram" name="instagram" placeholder="@kullaniciadi" required>
+        </div>
+        <div class="field-group">
+          <label for="followers">Takipçi Sayısı <span class="req">*</span></label>
+          <input type="text" id="followers" name="followers" placeholder="örn. 15.000" required>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-outline" data-prev>Geri</button>
+          <button type="button" class="btn btn-primary" data-next>İleri</button>
+        </div>
+      </div>
+
+      <!-- Adım 3: İçerik Bilgileri -->
+      <div class="form-step">
+        <h3>İçerik Bilgileri</h3>
+        <p class="step-desc">Ne tür içerik ürettiğini ve neden bize katılmak istediğini anlat.</p>
+
+        <div class="field-group">
+          <label for="content_type">İçerik Türü <span class="req">*</span></label>
+          <select id="content_type" name="content_type" required>
+            <option value="">Seçiniz</option>
+            <option>Anime İnceleme</option>
+            <option>Kısa Video / Edit</option>
+            <option>Fan Art / Çizim</option>
+            <option>Oyun / Anime Crossover</option>
+            <option>Cosplay</option>
+            <option>Diğer</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label for="avg_views">Ortalama İzlenme <span class="req">*</span></label>
+          <input type="text" id="avg_views" name="avg_views" placeholder="örn. 20.000" required>
+        </div>
+        <div class="field-group">
+          <label for="about">Kendinizi Tanıtın <span class="req">*</span></label>
+          <textarea id="about" name="about" required></textarea>
+        </div>
+        <div class="field-group">
+          <label for="why">Neden Eternal Production? <span class="req">*</span></label>
+          <textarea id="why" name="why" required></textarea>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-outline" data-prev>Geri</button>
+          <button type="button" class="btn btn-primary" data-next>İleri</button>
+        </div>
+      </div>
+
+      <!-- Adım 4: Reklam Onayı -->
+      <div class="form-step">
+        <h3>Reklam Onayı</h3>
+        <p class="step-desc">Partner olarak kabul edilmen hâlinde, Instagram'da en az 1 hikâye paylaşımı ve mümkün olması hâlinde Ortak Gönderi (Collab Post) davetini kabul etmen gerekir.</p>
+
+        <div class="field-group">
+          <label>Reklam yapmayı kabul ediyor musunuz? <span class="req">*</span></label>
+          <div class="choice-row">
+            <label class="choice-pill">
+              <input type="radio" name="ad_consent" value="Evet, kabul ediyorum" required>
+              <span>✅ Evet, kabul ediyorum</span>
+            </label>
+            <label class="choice-pill">
+              <input type="radio" name="ad_consent" value="Hayır, kabul etmiyorum">
+              <span>❌ Hayır, kabul etmiyorum</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-outline" data-prev>Geri</button>
+          <button type="button" class="btn btn-primary" data-next>İleri</button>
+        </div>
+      </div>
+
+      <!-- Adım 5: Sözleşmeler + Gönder -->
+      <div class="form-step">
+        <h3>Sözleşmeler ve Gönderim</h3>
+        <p class="step-desc">Bilgilerini gözden geçir, sözleşmeleri onayla ve başvurunu gönder.</p>
+
+        <div id="reviewList" class="review-list"></div>
+
+        <div class="agreement-box">
+          <input type="checkbox" id="agree_rules" name="agree_rules" value="Kabul edildi" required>
+          <label for="agree_rules">Partner Programı kurallarını ve <a href="legal/partner-sozlesmesi.html" target="_blank">Partner Programı Sözleşmesi</a>'ni okudum, kabul ediyorum.</label>
+        </div>
+        <div class="agreement-box">
+          <input type="checkbox" id="agree_content" name="agree_content" value="Kabul edildi" required>
+          <label for="agree_content"><a href="legal/telif-politikasi.html" target="_blank">İçerik ve Telif Politikası</a>'na ve <a href="legal/topluluk-kurallari.html" target="_blank">Topluluk Kuralları</a>'na uyacağımı beyan ederim.</label>
+        </div>
+        <div class="agreement-box">
+          <input type="checkbox" id="agree_privacy" name="agree_privacy" value="Kabul edildi" required>
+          <label for="agree_privacy"><a href="legal/kvkk.html" target="_blank">KVKK Aydınlatma Metni</a>'ni okudum, kişisel verilerimin işlenmesini kabul ediyorum.</label>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-outline" data-prev>Geri</button>
+          <button type="submit" class="btn btn-primary">Gönder</button>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+</section>
+</main>
+
+<div id="footer-root"></div>
+
+<script src="assets/data/partners-data.js"></script>
+<script src="assets/js/partials.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/form.js"></script>
+</body>
+</html>
