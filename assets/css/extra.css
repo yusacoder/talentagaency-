@@ -1,0 +1,65 @@
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3c4d6;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Page load animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-grid > div {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-grid > div:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+/* Background blur glow highlights */
+.glow-blur-bg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(91, 79, 233, 0.15) 0%, transparent 70%);
+  filter: blur(50px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Level badge specific premium colors */
+.level-card:hover .level-icon {
+  transform: scale(1.15) rotate(5deg);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.level-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Subtle input enhancements */
+.field-group input, .field-group select, .field-group textarea {
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
