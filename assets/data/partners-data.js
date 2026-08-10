@@ -3,12 +3,12 @@
  */
 const PARTNERS_DATA = [
   {
-    id: "yuki-sensei",
-    name: "Yuki Sensei",
+    id: "Konechiba-senpai",
+    name: "Konechiba Senpai",
     level: "diamond",
     levelLabel: "💎 Diamond Partner",
     badgeClass: "badge-diamond",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop",
+    image: "https://photograph.eternalproduction.net/konechiba-senpai-logo.jpg",
     banner: "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop",
     shortDesc: "Sezonluk anime incelemeleri ve karakter analizleri.",
     fullDesc: "Yuki Sensei, anime dünyasının derinliklerine inerek karakter psikolojileri, hikaye arkları ve sezonluk anime incelemeleri üzerine kaliteli video ve yazılı içerikler üretmektedir. 5 yılı aşkın süredir bu sektörde olan Yuki, analizleriyle binlerce anime severi bir araya getirmektedir.",
