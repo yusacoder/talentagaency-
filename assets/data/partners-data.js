@@ -21,7 +21,7 @@ const PARTNERS_DATA = [
     stats: {
       followers: "28K+",
       engagement: "%20M+",
-      monthlyViews: "20M+",
+      monthlyViews: "%80",
       levelNum: "Level 4 (Diamond)"
     },
 
