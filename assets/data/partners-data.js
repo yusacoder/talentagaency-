@@ -19,9 +19,9 @@ const PARTNERS_DATA = [
     fullDesc: "Konechiba Senpai, High School DxD başta olmak üzere anime dünyasına yönelik içerikler üreten bir Türk anime içerik üreticisi ve fan hesabıdır. High School DxD karakterleri, sahneleri, haberleri ve anime içerikleri üzerine düzenli paylaşımlar yaparak Türkiye'deki anime severlerle buluşmaktadır.",
 
     stats: {
-      followers: "17K+",
-      engagement: "%7M+",
-      monthlyViews: "7M+",
+      followers: "28K+",
+      engagement: "%20M+",
+      monthlyViews: "20M+",
       levelNum: "Level 4 (Diamond)"
     },
 
