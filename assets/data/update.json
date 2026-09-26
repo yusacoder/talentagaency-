@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "version": "1.2.0",
+  "date": "18 Mayıs 2025",
+  "badge": "YENİ GÜNCELLEME",
+  "title": "Platform Güncellemesi v1.2.0",
+  "description": "Eternal Production platformumuzda gerçekleştirdiğimiz son yenilikler ve geliştirmeler aşağıda yer almaktadır:",
+  "changes": [
+    "Partner başvuru formu ve onay süreçleri optimize edildi.",
+    "Performans iyileştirmeleri ve mobil navigasyon deneyimi geliştirildi.",
+    "Telif ve Topluluk Kuralları bölümleri güncellendi."
+  ],
+  "dismissButtonText": "Anladım, Kapat",
+  "actionButtonText": "Programı İncele",
+  "actionButtonUrl": "partner-programi.html"
+}
